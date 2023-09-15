@@ -71,3 +71,22 @@ footer {
     color: white;
     background-color: goldenrod;
 }
+
+.dropdown-menu {
+    --bs-dropdown-link-active-bg: var(--bs-dropdown-link-hover-bg);
+}
+
+.form-control:focus {
+    border-color: goldenrod;
+    box-shadow: 0 0 0 0.25rem rgba(218, 165, 32, 0.25);
+}
+
+.form-check-input:focus {
+    border-color: goldenrod;
+    box-shadow: 0 0 0 0.25rem rgba(218, 165, 32, 0.25);
+}
+
+.form-check-input:checked {
+    border-color: goldenrod;
+    background-color: goldenrod;
+}
