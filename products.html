@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MK TIME | Home</title>
+    <title>MK TIME | Shop</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -54,60 +54,56 @@
                         <a class="nav-link" href="register.html">Register</a>
                     </li>
                 </ul>
+                <!-- <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
             </div>
         </div>
     </nav>
-    <!-- Hero Image -->
-    <div class="position-relative">
-        <img src="assets/hero_image.png" alt="" class="img-fluid w-100 d-none d-md-inline">
-        <img src="assets/hero_image_black.png" alt="" class="img-fluid w-100 d-md-none">
-        <div class="hero-text text-light">
-            <h2 class="fw-bolder fs-1">Mk Time</h2>
-            <p class="fw-medium fs-4">Timepieces of Excellence</p>
-            <div class="">
-                <a href="products.html" class="hero-button btn btn-outline-light text-uppercase mt-2">Shop
-                    now</a>
-            </div>
-        </div>
 
-    </div>
-    <!-- For Him/For Her Links -->
-    <section class="container-fluid mt-5">
-        <div class="row gx-md-4 gy-4">
-            <div class="col-md-4 col-6 offset-md-2 offset-3 position-relative">
-                <div class="object-fit-cover w-100 h-100 position-relative">
-                    <img src="assets/for her.jpg" alt="" class="object-fit-cover w-100 h-100">
-                    <a href="forher.html">
-                        <div class="overlay"></div>
-                    </a>
-                    <h3 class="text text-light fw-semibold text-uppercase">For Her</h2>
-                </div>
-            </div>
-            <div class="col-md-4 col-6 offset-md-0 offset-3 position-relative">
-                <div class="object-fit-cover w-100 h-100 position-relative">
-                    <img src="assets/for him.jpg" alt="" class="object-fit-cover w-100 h-100">
-                    <a href="forhim.html">
-                        <div class="overlay"></div>
-                    </a>
-                    <h3 class="text text-light fw-semibold text-uppercase">For Him
-                        </h2>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- Featured Products -->
+    <!-- Products -->
     <section class="container my-5">
-        <h3 class="text-uppercase">Featured Products</h3>
-        <div class="row mt-3 g-3">
-            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-between">
-                <div class="mt-3 text-center">
-                    <img src="assets/img1_thumbnail.jpg" alt="" class="img-fluid">
+        <h3 class="text-uppercase text-center">Our collection</h3>
+        <div class="row mt-4 g-3 gy-5 gy-md-3">
+            <div class="col-6 offset-3 offset-md-0 col-lg-3 col-md-6 d-flex flex-column justify-content-between">
+                <div class="mt-3 text-center border border-secondary-subtle border-opacity-25 py-4">
+                    <img src="assets/img6_thumbnail.jpg" alt="" class="img-fluid">
                 </div>
-                <div class="mt-5 px-5 px-md-4">
-                    <p class="fst-italic">Functional</p>
-                    <p class="mt-3 fw-bold">$110.00</p>
+                <div class="mt-3 px-2 px-md-4">
+                    <p class="fst-italic">Black</p>
+                    <p class="mt-3 fw-bold">$150.00</p>
                     <p class="feat-product-text lh-sm text-secondary">Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit.</p>
+                    <div>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <span class="ms-2">(0)</span>
+                    </div>
+                    <div class="">
+                        <button type="button" class="hero-button btn btn-outline text-uppercase mt-4">Buy
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 offset-3 offset-md-0 col-lg-3 col-md-6 d-flex flex-column justify-content-between">
+                <div class="mt-3 text-center border border-secondary-subtle border-opacity-25 py-4 position-relative">
+                    <img src="assets/img1_thumbnail.jpg" alt="" class="img-fluid">
+                    <div class="text-uppercase position-absolute bg-danger text-light"
+                        style="right: -1px; top: 10%; font-size: small; padding: 1px 10px;">sale
+                    </div>
+                </div>
+                <div class="mt-3 px-2 px-md-4">
+                    <p class="fst-italic">Timeless</p>
+                    <div class="d-flex mt-3">
+                        <p class="fw-bold text-decoration-line-through">$110.00 </p>
+                        <p class="ps-2 text-danger fw-bold">$75.00 </p>
+                    </div>
+                    <p class="feat-product-text lh-sm text-secondary">Lorem ipsum dolor sit, amet
+                        consectetur
                         adipisicing elit.
                     </p>
                     <div>
@@ -124,11 +120,89 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-between">
-                <div class="mt-3 text-center">
-                    <img src="assets/img3_thumbnail.jpg" alt="" class="img-fluid">
+            <div class="col-6 offset-3 offset-md-0 col-lg-3 col-md-6 d-flex flex-column justify-content-between">
+                <div class="mt-3 text-center border border-secondary-subtle border-opacity-25 py-4">
+                    <img src="assets/img5_thumbnail.jpg" alt="" class="img-fluid">
                 </div>
-                <div class="mt-5 px-5 px-md-4">
+                <div class="mt-3 px-2 px-md-4">
+                    <p class="fst-italic">Mio</p>
+                    <p class="mt-3 fw-bold">$100.00</p>
+                    <p class="feat-product-text lh-sm text-secondary">Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit.
+                    </p>
+
+                    <div>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star"></i>
+                        <span class="ms-2">(5)</span>
+                    </div>
+                    <div class="">
+                        <button type="button" class="hero-button btn btn-outline text-uppercase mt-4">Buy
+                            Now</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-6 offset-3 offset-md-0 col-lg-3 col-md-6 d-flex flex-column justify-content-between">
+                <div class="mt-3 text-center border border-secondary-subtle border-opacity-25 py-4">
+                    <img src="assets/img2_thumbnail.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="mt-3 px-2 px-md-4">
+                    <p class="fst-italic">Clean</p>
+                    <p class="mt-3 fw-bold">$200.00</p>
+                    <p class="feat-product-text lh-sm text-secondary">Lorem ipsum dolor sit, amet consectetur
+                        adipisicing elit.
+                    </p>
+                    <div>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <span class="ms-2">(10)</span>
+                    </div>
+                    <div class="">
+                        <button type="button" class="hero-button btn btn-outline text-uppercase mt-4">Buy
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row mt-0 mt-lg-4 g-3 gy-5 gy-md-3">
+            <div class="col-6 offset-3 col-md-6 offset-md-0 col-lg-3 d-flex flex-column justify-content-between">
+                <div class="mt-3 text-center border border-secondary-subtle border-opacity-25 py-4">
+                    <img src="assets/img7_thumbnail.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="mt-3 px-2 px-md-4">
+                    <p class="fst-italic">Classy</p>
+                    <p class="mt-3 fw-bold">$115.00</p>
+                    <p class="feat-product-text lh-sm text-secondary">Lorem ipsum dolor sit, amet
+                        consectetur
+                        adipisicing elit.
+                    </p>
+                    <div>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                        <span class="ms-2">(0)</span>
+                    </div>
+                    <div class="">
+                        <button type="button" class="hero-button btn btn-outline text-uppercase mt-4">Buy
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 offset-3 offset-md-0 col-lg-3 col-md-6 d-flex flex-column justify-content-between">
+                <div class="mt-3 text-center border border-secondary-subtle border-opacity-25 py-4">
+                    <img src="assets/img8_thumbnail.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="mt-3 px-2 px-md-4">
                     <p class="fst-italic">Mia</p>
                     <p class="mt-3 fw-bold">$100.00</p>
                     <p class="feat-product-text lh-sm text-secondary">Lorem ipsum dolor sit, amet consectetur
@@ -150,11 +224,11 @@
                 </div>
 
             </div>
-            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-between">
-                <div class="mt-3 text-center">
+            <div class="col-6 offset-3 offset-md-0 col-lg-3 col-md-6 d-flex flex-column justify-content-between">
+                <div class="mt-3 text-center border border-secondary-subtle border-opacity-25 py-4">
                     <img src="assets/img2_thumbnail.jpg" alt="" class="img-fluid">
                 </div>
-                <div class="mt-5 px-5 px-md-4">
+                <div class="mt-3 px-2 px-md-4">
                     <p class="fst-italic">White</p>
                     <p class="mt-3 fw-bold">$200.00</p>
                     <p class="feat-product-text lh-sm text-secondary">Lorem ipsum dolor sit, amet consectetur
@@ -174,12 +248,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-between">
-                <div class="mt-3 text-center">
-                    <img src="assets/img6_thumbnail.jpg" alt="" class="img-fluid">
+            <div class="col-6 offset-3 offset-md-0 col-lg-3 col-md-6 d-flex flex-column justify-content-between">
+                <div class="mt-3 text-center border border-secondary-subtle border-opacity-25 py-4">
+                    <img src="assets/img9_thumbnail.jpg" alt="" class="img-fluid">
                 </div>
-                <div class="mt-5 px-5 px-md-4">
-                    <p class="fst-italic">Black</p>
+                <div class="mt-3 px-2 px-md-4">
+                    <p class="fst-italic">Nice</p>
                     <p class="mt-3 fw-bold">$150.00</p>
                     <p class="feat-product-text lh-sm text-secondary">Lorem ipsum dolor sit, amet consectetur
                         adipisicing elit.</p>
