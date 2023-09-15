@@ -5,7 +5,7 @@ The wesite is live [here](https://mktime.paolopironi.xyz/).
 
 Some features still need to be implemented:
 
-- [ ] A `products` page that lists all products.
+- [x] A `products` page that lists all products.
 - [ ] A `product` page with the detail of each single product.
 - [ ] A `clearance` page that lists the products on sale.
 
